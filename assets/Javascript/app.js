@@ -69,7 +69,7 @@ var gameQuestions = [{
         a: "Lil Wayne", b: "Kendrick Lamar", c: "Drake", d: "Kanye West"
     },
 
-    correctAnswer: "d"
+    correctAnswer: "b"
 
 
 }, {
@@ -183,7 +183,7 @@ $("#submit").click(function () {
     $("#rightGuess").html("Right Answers:" + right);
     $("#wrongGuess").html("Wrong Answers:" + wrong);
     $("#unmark").html("Unmarked Answers:" + unMarked);
-
+    hideSubmit();
 });
 
 function gameOver() {
@@ -193,6 +193,7 @@ function gameOver() {
     $("#rightGuess").html("Right Answers:" + right);
     $("#wrongGuess").html("Wrong Answers:" + wrong);
     $("#unmark").html("Unmarked Answers:" + unMarked);
+    hideSubmit();
 }
 
 
