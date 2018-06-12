@@ -64,7 +64,27 @@ var gameQuestions = [{
 
 }, {
 
-    question: "6.) Which one of these artists were on the set of the video shoot for Dr. Dre and Tupac's California Love?",
+    question: "6.) How long did it take Jay Z to write the Blueprint?",
+    choices: {
+        a: "1 week", b: "1 month", c: "2 days", d: "12 hours"
+    },
+
+    correctAnswer: "c"
+
+
+}, {
+
+    question: "7.) What was the name of Snoop Dogg, Nate Dogg, and Warren G's group?",
+    choices: {
+        a: "Dog Pound", b: "Brick House", c: "The Pound", d: "213"
+    },
+
+    correctAnswer: "d"
+
+
+},{
+
+    question: "8.) Which one of these artists were on the set of the video shoot for Dr. Dre and Tupac's California Love?",
     choices: {
         a: "Lil Wayne", b: "Kendrick Lamar", c: "Drake", d: "Kanye West"
     },
@@ -72,9 +92,19 @@ var gameQuestions = [{
     correctAnswer: "b"
 
 
-}, {
+},{
 
-    question: "7.) Who Co-Wrote Will Smith's hit single 'Gettin Jiggy Wit It'?",
+    question: "9.) What did Rick Ross do in the 90s?",
+    choices: {
+        a: "Public Housing Associate", b: "Correctional Officer", c: "Business Development", d: "Stock Trading"
+    },
+
+    correctAnswer: "b"
+
+
+},{
+
+    question: "10.) Who Co-Wrote Will Smith's hit single 'Gettin Jiggy Wit It'?",
     choices: {
         a: "Nas", b: "Tupac", c: "Beyonce", d: "Lil Kim"
     },
